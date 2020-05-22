@@ -1,0 +1,286 @@
+<!-- 
+* Copyright 2016 Carlos Eduardo Alfaro Orellana
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Clients</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/material.min.js" ></script>
+	<script src="js/sweetalert2.min.js" ></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js" ></script>
+	<script src="js/main.js" ></script>
+</head>
+<body>
+	<!-- Notifications area -->
+
+	<!-- navBar -->
+    <div class="full-width navBar">
+		<div class="full-width navBar-options">
+			<i class="zmdi zmdi-more-vert btn-menu" id="btn-menu"></i>	
+			<div class="mdl-tooltip" for="btn-menu">Menu</div>
+			<nav class="navBar-options-list">
+				<ul class="list-unstyle">
+					
+					<li class="btn-exit" id="btn-exit">
+						<i class="zmdi zmdi-power"></i>
+						<div class="mdl-tooltip" for="btn-exit">LogOut</div>
+					</li>
+					<li class="text-condensedLight noLink" ><small> Ana Laura </small></li>
+					<li class="noLink">
+						<figure>
+							<img src="assets/img/avatar-female.png" alt="Avatar" class="img-responsive">
+						</figure>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- navLateral -->
+	<section class="full-width navLateral">
+		<div class="full-width navLateral-bg btn-menu"></div>
+		<div class="full-width navLateral-body">
+			<div class="full-width navLateral-body-logo text-center tittles">
+				<i class="zmdi zmdi-close btn-menu"></i> Analisis Santa Marìa 
+			</div>
+			<figure class="full-width" style="height: 77px;">
+				<div class="navLateral-body-cl">
+					<img src="imagenes/experimentar.png" alt="Avatar" class="img-responsive">
+				</div>
+				<figcaption class="navLateral-body-cr hide-on-tablet">
+					<span>
+						Ana Laura: Secretaria<br>
+						<small>Administrador</small>
+					</span>
+				</figcaption>
+			</figure>
+			<div class="full-width tittles navLateral-body-tittle-menu">
+				
+			</div>
+			<nav class="full-width">
+				<ul class="full-width list-unstyle menu-principal">
+					<li class="full-width">
+						<a href="home.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-home"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								Inicio
+							</div>
+						</a>
+					</li>
+                    <li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="client.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-accounts"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								CLIENTES
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+			        <li class="full-width">
+						<a href="payments.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-card"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								Caja
+							</div>
+						</a>
+					</li>
+                    <li class="full-width divider-menu-h"></li>
+			        <li class="full-width">
+						<a href="inventory.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-notifications-active"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								CITAS
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+				<li class="full-width">
+						<a href="admin.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-account"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								PERSONAL
+							</div>
+						</a>
+					</li>
+					
+					<li class="full-width divider-menu-h"></li>
+				
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="sales.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-calendar-check"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								CORTE DEL DÌA
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="#!" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-wrench"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								Ajustes
+							</div>
+							<span class="zmdi zmdi-chevron-left"></span>
+						</a>
+						<ul class="full-width menu-principal sub-menu-options">
+							<li class="full-width">
+								<a href="#!" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-widgets"></i>
+									</div>
+									<div class="navLateral-body-cr hide-on-tablet">
+										Opciones
+									</div>
+								</a>
+							</li>
+							
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<!-- pageContent -->
+	<section class="full-width pageContent">
+		<section class="full-width header-well">
+			<div class="full-width header-well-icon">
+				<i class="zmdi zmdi-accounts"></i>
+			</div>
+			<div class="full-width header-well-text">
+				<p class="text-condensedLight">
+				Solicitudes de Analisis del dìa
+				</p>
+			</div>
+		</section>
+		<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+			<div class="mdl-tabs__tab-bar">
+				<a href="#tabNewClient" class="mdl-tabs__tab is-active">Nuevo</a>
+				<a href="#tabListClient" class="mdl-tabs__tab">Lista</a>
+			</div>
+			<div class="mdl-tabs__panel is-active" id="tabNewClient">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop mdl-cell--2-offset-desktop">
+						<div class="full-width panel mdl-shadow--2dp">
+							<div class="full-width panel-tittle bg-primary text-center tittles">
+								Nueva solicitud
+							</div>
+							<div class="full-width panel-content">
+								<form>
+									<h5 class="text-condensedLight">Datos del cliente</h5>
+									
+									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+										<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-záéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="NameClient">
+										<label class="mdl-textfield__label" for="NameClient">Nombre</label>
+										<span class="mdl-textfield__error">Nombre no valido</span>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+										<input class="mdl-textfield__input" type="text" id="addressClient2">
+										<label class="mdl-textfield__label" for="addressClient2">Tipo de Analisis</label>
+										<span class="mdl-textfield__error">iNCORRECTO</span>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+										<input class="mdl-textfield__input" type="tel" pattern="-?[0-9+()- ]*(\.[0-9]+)?" id="phoneClient">
+										<label class="mdl-textfield__label" for="phoneClient">Edad</label>
+										<span class="mdl-textfield__error">edad incorrecta</span>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+										<input class="mdl-textfield__input" type="email" id="emailClient">
+										<label class="mdl-textfield__label" for="emailClient">Embarazada</label>
+										<span class="mdl-textfield__error">incorrecto</span>
+									</div>
+									<p class="text-center">
+										<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored bg-primary" id="btn-addClient">
+											<i class="zmdi zmdi-plus"></i>
+										</button>
+										<div class="mdl-tooltip" for="btn-addClient">Enviar</div>
+									</p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdl-tabs__panel" id="tabListClient">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop mdl-cell--2-offset-desktop">
+						<div class="full-width panel mdl-shadow--2dp">
+							<div class="full-width panel-tittle bg-success text-center tittles">
+								Lista de Solicitudes
+							</div>
+							<div class="full-width panel-content">
+								<form action="#">
+									<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+										<label class="mdl-button mdl-js-button mdl-button--icon" for="searchClient">
+											<i class="zmdi zmdi-search"></i>
+										</label>
+										<div class="mdl-textfield__expandable-holder">
+											<input class="mdl-textfield__input" type="text" id="searchClient">
+											<label class="mdl-textfield__label"></label>
+										</div>
+									</div>
+								</form>
+								<div class="mdl-list">
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>1. Juan Hernandez Perez</span>
+											<span class="mdl-list__item-sub-title">Examen de Antidopin</span>
+                                            <span class="mdl-list__item-sub-title">Edad: 25</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><span >Entregado</span><i class="zmdi zmdi-shield-check"></i></a>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>2. Andre Mora TeLLEZ</span>
+											<span class="mdl-list__item-sub-title">Preuva de Embarazo</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><span >Pendiente</span><i class="zmdi zmdi-alert-circle"></i></a>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									
+									<li class="full-width divider-menu-h"></li>
+									
+									<li class="full-width divider-menu-h"></li>
+									
+									<li class="full-width divider-menu-h"></li>
+									
+									<li class="full-width divider-menu-h"></li>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

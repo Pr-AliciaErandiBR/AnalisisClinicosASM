@@ -1,0 +1,223 @@
+<!-- 
+* Copyright 2016 Carlos Eduardo Alfaro Orellana
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sales</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/material.min.js" ></script>
+	<script src="js/sweetalert2.min.js" ></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js" ></script>
+	<script src="js/main.js" ></script>
+</head>
+<body>
+	<!-- Notifications area -->
+	
+	<!-- navBar -->
+	<div class="full-width navBar">
+		<div class="full-width navBar-options">
+			<i class="zmdi zmdi-more-vert btn-menu" id="btn-menu"></i>	
+			<div class="mdl-tooltip" for="btn-menu">Menu</div>
+			<nav class="navBar-options-list">
+				<ul class="list-unstyle">
+					
+					<li class="btn-exit" id="btn-exit">
+						<i class="zmdi zmdi-power"></i>
+						<div class="mdl-tooltip" for="btn-exit">LogOut</div>
+					</li>
+					<li class="text-condensedLight noLink" ><small> Ana Laura </small></li>
+					<li class="noLink">
+						<figure>
+							<img src="assets/img/avatar-female.png" alt="Avatar" class="img-responsive">
+						</figure>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- navLateral -->
+	<section class="full-width navLateral">
+		<div class="full-width navLateral-bg btn-menu"></div>
+		<div class="full-width navLateral-body">
+			<div class="full-width navLateral-body-logo text-center tittles">
+				<i class="zmdi zmdi-close btn-menu"></i> Analisis Santa Marìa 
+			</div>
+			<figure class="full-width" style="height: 77px;">
+				<div class="navLateral-body-cl">
+					<img src="imagenes/experimentar.png" alt="Avatar" class="img-responsive">
+				</div>
+				<figcaption class="navLateral-body-cr hide-on-tablet">
+					<span>
+						Ana Laura: Secretaria<br>
+						<small>Administrador</small>
+					</span>
+				</figcaption>
+			</figure>
+			<div class="full-width tittles navLateral-body-tittle-menu">
+				
+			</div>
+			<nav class="full-width">
+				<ul class="full-width list-unstyle menu-principal">
+					<li class="full-width">
+						<a href="home.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-home"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								Inicio
+							</div>
+						</a>
+					</li>
+                    <li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="client.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-accounts"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								CLIENTES
+							</div>
+						</a>
+					</li>
+                    <li class="full-width divider-menu-h"></li>
+			        <li class="full-width">
+						<a href="payments.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-card"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								Caja
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+                    
+			        <li class="full-width">
+						<a href="inventory.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-notifications-active"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								CITAS
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+				<li class="full-width">
+						<a href="admin.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-account"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								PERSONAL
+							</div>
+						</a>
+					</li>
+					
+					<li class="full-width divider-menu-h"></li>
+					
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="sales.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-calendar-check"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								CORTE DEL DÌA
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="#!" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-wrench"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								Ajustes
+							</div>
+							<span class="zmdi zmdi-chevron-left"></span>
+						</a>
+						<ul class="full-width menu-principal sub-menu-options">
+							<li class="full-width">
+								<a href="#!" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-widgets"></i>
+									</div>
+									<div class="navLateral-body-cr hide-on-tablet">
+										Opciones
+									</div>
+								</a>
+							</li>
+							
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<!-- pageContent -->
+	<section class="full-width pageContent">
+		<section class="full-width header-well">
+			<div class="full-width header-well-icon">
+				<i class="zmdi zmdi-calendar-check"></i>
+			</div>
+			<div class="full-width header-well-text">
+				<p class="text-condensedLight">
+					CORTE DEL DÍA
+				</p>
+			</div>
+		</section>
+		<div class="full-width divider-menu-h"></div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop">
+				<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp full-width table-responsive">
+					<thead>
+						<tr>
+							<th class="mdl-data-table__cell--non-numeric">fecha</th>
+							<th>Cliente</th>
+							<th>Tipo-pago</th>
+							<th>Total</th>
+							<th>Opcones</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">11/04/2020</td>
+							<td>Ana Solis Mora</td>
+							<td>Tarjeta</td>
+							<td>$350</td>
+							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">11/04/2020</td>
+							<td>Jesus Andres Gonzales Arriaga</td>
+							<td>Presencial</td>
+							<td>$2000</td>
+							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">11/04/2020</td>
+							<td>Sofia Piña Bautista</td>
+							<td>Tarjeta</td>
+							<td>$150</td>
+							<td><button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="zmdi zmdi-more"></i></button></td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

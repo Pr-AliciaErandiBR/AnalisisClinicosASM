@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(90deg,#4db6ac, #00796b);
+    padding: 20dx;
+}
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ctn-form{
+    width: 80%;
+    padding: 40px;
+    background: #f7f7f7;
+}
+.logo{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: black;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+ input[type="text"],
+ input[type="password"]{
+    width: 100%;
+    box-sizing:  border-box;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: #004d40;
+    font-size: 16px;
+}
+.boton {
+    width: 100%;
+    height: 35ps;
+    display: block;
+    text-align: center;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0px;
+    background: linear-gradient(90deg,#00897b, #00796b);
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 27px;
+}
+.boton :hover{
+     background: linear-gradient(90deg,#26a69a, #4db6ac);
+}
+.text-footer{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+.text-footer a{
+    color: #029ee1;
+    font-weight: 500;
+}
+/* lado derecho*/
+.ctn-text{
+    width: 100%;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    position: relative;
+}
+.shishe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,#80cbc4,#4db6ac);
+    opacity: 0.3;
+}
+.logop{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+.title-decrp{
+    position: relative;
+    top: 0px;
+    color: #7a7a7a;
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+}
+.text-descripcion{
+   position: relative;
+    top: 20px;
+    color: #00695c;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;  
+}
+/* mensajes de error*/
+.msg-error{
+    color: red;
+    opacity: 0.8;
+    display: block;
+    margin-top: 10px;
+}
+/*Responsibe*/
+@media screen and (max-width: 800px){
+    .ctn-text{
+        display: none;
+    }
+    .ctn-form{
+        margin: auto;
+        width: 100%;
+        background: white;
+    }
+}
