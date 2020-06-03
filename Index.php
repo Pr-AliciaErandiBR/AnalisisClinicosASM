@@ -9,15 +9,15 @@
         <div class="container-all">
             <div class="ctn-form">
                 <img src="imagenes/experimentar.png" alt="" class="logo">
-                <h1 class="title">Iniciar Sesiòn</h1>
+                <h1 class="title">Inicio de sesion</h1>
                 <form action="">
                     <div>
-                        <label for="">Correoo</label>
+                        <label for="">email</label>
                         <input type="text" name="" required="">
                         <span class="msg-error"></span>
                     </div>
                     <div>
-                       <label for="">Contraseña</label>
+                       <label for="">Password</label>
                        <input type="password" name="" required="">
                        <span class="msg-error"></span>
                     </div>

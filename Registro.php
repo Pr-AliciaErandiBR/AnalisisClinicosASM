@@ -11,20 +11,18 @@
                 <img src="imagenes/experimentar.png" alt="" class="logo">
                 <h1 class="title">Registro</h1>
                 <form action="">
-                <label for="">Nombre completo</label>
+                <label for="">Nombre</label>
                         <input type="text" name="" required="">
-                     <label for="">Teléfono</label>
+                     <label for="">Phone</label>
                         <input type="text" name="" required="">
-                     <label for="">Puesto</label>
-                        <input type="text" name="" required="">
-                         <label for="">Correo</label>
+                         <label for="">Email</label>
                         <input type="text" name="" required="">
                        
                   
-                         <label for="">Contraseña</label>
+                         <label for="">Password</label>
                         <input type="password" name="" required="">
                        
-                     <a class="boton" href="Index.php"> Registarse</a>
+                     <a class="boton" href="Index.php"> Registarseee</a>
                    
                 </form>
                 <span class="text-footer">¿Ya tienes una cuenta?  <a href="Index.php"> iniciar sesión</a></span>
