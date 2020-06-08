@@ -17,7 +17,7 @@
                         <span class="msg-error"></span>
                     </div>
                     <div>
-                       <label for="">Password</label>
+                       <label for="">contraseña</label>
                        <input type="password" name="" required="">
                        <span class="msg-error"></span>
                     </div>
