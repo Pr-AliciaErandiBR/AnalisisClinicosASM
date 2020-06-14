@@ -12,7 +12,7 @@
                 <h1 class="title">Inicio de sesion</h1>
                 <form action="">
                     <div>
-                        <label for="">emailllll</label>
+                        <label for="">Correo</label>
                         <input type="text" name="" required="">
                         <span class="msg-error"></span>
                     </div>
