@@ -13,7 +13,7 @@
                 <form action="">
                 <label for="">Nombre completo</label>
                         <input type="text" name="" required="">
-                     <label for="">Phone</label>
+                     <label for="">telefono</label>
                         <input type="text" name="" required="">
                          <label for="">Email</label>
                         <input type="text" name="" required="">
