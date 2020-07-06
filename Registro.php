@@ -11,7 +11,7 @@
                 <img src="imagenes/experimentar.png" alt="" class="logo">
                 <h1 class="title">Registro</h1>
                 <form action="">
-                <label for="">Nombre</label>
+                <label for="">Nombre completo</label>
                         <input type="text" name="" required="">
                      <label for="">Phone</label>
                         <input type="text" name="" required="">
