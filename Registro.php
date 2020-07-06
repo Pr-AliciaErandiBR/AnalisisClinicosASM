@@ -19,7 +19,7 @@
                         <input type="text" name="" required="">
                        
                   
-                         <label for="">Password</label>
+                         <label for="">contraseña</label>
                         <input type="password" name="" required="">
                        
                      <a class="boton" href="Index.php"> Registarseee</a>
