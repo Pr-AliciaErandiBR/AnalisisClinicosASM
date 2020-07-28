@@ -12,7 +12,7 @@
                 <h1 class="title">holahvkhvhv</h1>
                 <form action="">
                     <div>
-                        <label for="">Correo</label>
+                        <label for="">Email</label>
                         <input type="text" name="" required="">
                         <span class="msg-error"></span>
                     </div>
