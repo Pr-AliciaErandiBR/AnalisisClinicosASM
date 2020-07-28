@@ -9,7 +9,7 @@
         <div class="container-all">
             <div class="ctn-form">
                 <img src="imagenes/experimentar.png" alt="" class="logo">
-                <h1 class="title">Inicio de sesision de analisis</h1>
+                <h1 class="title">holahvkhvhv</h1>
                 <form action="">
                     <div>
                         <label for="">Correo</label>
